@@ -1,0 +1,201 @@
+html {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    background-color:black;
+    
+
+}
+
+.cozylogo {
+    flex: 0;
+    height: 50px;
+    margin: 10px;
+    
+}
+
+
+header nav ul {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    list-style: none;
+    
+}
+
+
+nav a {
+    color: seashell;
+    font-family: "Source Serif Pro";
+    font-size: 30px;
+    padding: 20px;
+    text-decoration: none;
+    
+    
+}
+
+@media only screen and (max-width: 600px) {
+    header nav a {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1000px) {
+    header nav a {
+        font-size: 20px;
+    }
+}
+
+.main-content {
+    position: relative;
+    top: 40px;
+}
+
+#mission {
+    background-image: url(../img-mission-background.jpg);
+    background-size: cover;
+    height: 700px;
+    margin: 0 20px;
+    
+}
+
+#mission img {
+    size: 100% auto;
+}
+
+#mission .content {
+    position: relative;
+    top: 45%;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: black;
+    justify-content: center;
+    align-content: center;
+    padding: 0px;
+    
+}
+
+#mission .content h2, h4 {
+    width: 100%;
+    flex: 1 1 auto;
+    padding: 5px;
+    margin: 0px;
+}
+
+#featurdtea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+#featuredtea .gallery {
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto;
+    
+
+}
+
+#featuredtea .gallery #item img {
+    margin: 5px;
+    height: 200px;
+    width: 300px;
+}
+
+#locations {
+    background-image: url(../img-locations-background.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 500px;
+    margin: 0 20px;
+}
+
+#locations h2 {
+    padding-top: 50px;
+    font-size: 25px;
+    margin: 0 auto;
+}
+
+#locations img {
+    size: 100% auto;
+    
+}
+
+.stores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stores #store {
+    flex: 1 1 auto;
+    margin: 40px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+
+
+.contact {
+    margin-top: 50px;
+    display: block;
+    height: 200px;
+    text-align: center;
+}
+
+.contact h5 {
+    font-size: 16px;
+}
+
+#copyright {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 16px;
+}
+    
+    
+
+
+    
+   
+
+
+    
+
